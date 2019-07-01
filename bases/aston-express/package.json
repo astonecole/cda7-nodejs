@@ -1,0 +1,21 @@
+{
+  "name": "aston-express",
+  "version": "0.1.0",
+  "description": "Test expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Hello",
+    "aston": "ls",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "API",
+    "tests"
+  ],
+  "author": "Vincent Letourneau <vincent@nanoninja.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
