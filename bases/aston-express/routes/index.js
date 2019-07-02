@@ -17,3 +17,5 @@ app.get('/hello', controllers.hello);
 // http://localhost:8000/lunchtime/test
 lunchtime.get('/test', controllers.test);
 
+// Others
+require('./user');
