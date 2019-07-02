@@ -1,9 +1,16 @@
-const express = require('express');
+const morgan = require('morgan');
+const bodyParser = require('body-parser');
+const path = require('path');
+const cors = require('cors');
 
+express = require('express');
 app = express();
+lunchtime = express.Router();
 
-app.get('/', (req, res) => {
-    res.send('<h1>ExpressJS en force</h1>');
-});
+// Public Middlewares
+app.use(morgan('tiny'));
+app.use('/lunchtime', lunchtime);
+
+require('./routes');
 
 app.listen(8000);
