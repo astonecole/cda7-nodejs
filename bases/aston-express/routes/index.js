@@ -21,9 +21,11 @@ app.get('/hello', controllers.hello);
 require('./user');
 
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const routers = [lunchtime, user];
 
 routers.forEach(router => {
-    router.use(bodyParser.urlencoded({ encoded: true }));
+    router.use(cors());
+    router.use(bodyParser.urlencoded({ extended: true }));
     router.use(bodyParser.json());
 });

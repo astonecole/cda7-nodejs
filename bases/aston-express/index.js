@@ -1,6 +1,4 @@
 const morgan = require('morgan');
-const path = require('path');
-const cors = require('cors');
 
 Sequelize = require('sequelize');
 sequelize = new Sequelize('mysql://root:root@localhost:3306/lunchtime', {
