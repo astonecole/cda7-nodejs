@@ -3,7 +3,7 @@
 // Public
 // http://localhost:8080/lunchtime/menu
 // http://localhost:8080/lunchtime/login
-// http://localhost:8080/lunchtime/user/register
+// http://localhost:8080/lunchtime/register
 
 // Private
 // http://localhost:8080/lunchtime/user/findall

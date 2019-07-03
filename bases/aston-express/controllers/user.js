@@ -6,8 +6,6 @@ const jwtUtil = require('../utils/jwt');
 exports.login = (req, res) => {
     const body = req.body;
 
-    console.log(body);
-
     UserService.authenticate({
         email: body.email,
         password: body.password
