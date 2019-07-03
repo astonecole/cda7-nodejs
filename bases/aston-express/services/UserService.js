@@ -16,3 +16,28 @@ exports.create = user => {
 };
 
 exports.all = () => UserModel.findAll();
+
+exports.findByEmail = email => {
+    return UserModel.findOne({
+        where: {
+            email: email
+        }
+    });
+};
+
+exports.authenticate = data => {
+    return this.findByEmail(data.email).then(
+        user => {
+            if (!user) {
+                throw new Error('user not found');
+            }
+
+            const ok = password.verifySync(data.password, user.password);
+            if (!ok) {
+                throw new Error('password is invalid');
+            }
+
+            return user;
+        }
+    );
+};
