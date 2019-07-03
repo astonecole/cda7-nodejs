@@ -11,11 +11,19 @@
 
 const controllers = require('../controllers');
 
+// http://localhost:8000/lunchtime/
+lunchtime.get('/', controllers.home);
+
 // http://localhost:8000/hello
 app.get('/hello', controllers.hello);
 
-// http://localhost:8000/lunchtime/test
-lunchtime.get('/test', controllers.test);
-
 // Others
 require('./user');
+
+const bodyParser = require('body-parser');
+const routers = [lunchtime, user];
+
+routers.forEach(router => {
+    router.use(bodyParser.urlencoded({ encoded: true }));
+    router.use(bodyParser.json());
+});

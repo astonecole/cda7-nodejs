@@ -9,7 +9,7 @@ exports.hello = (req, res) => {
     });
 }
 
-exports.test = (req, res) => {
+exports.home = (req, res) => {
     MenuService.all().then(
         data => {
             res.json(data);
@@ -18,8 +18,4 @@ exports.test = (req, res) => {
             res.json(err);
         }
     );
-
-    // res.send({
-    //     message: 'Test...'
-    // });
 };
