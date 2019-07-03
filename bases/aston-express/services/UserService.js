@@ -4,14 +4,14 @@ const UserModel = require('../models/UserModel');
 const password = require('../utils/bcrypt-password');
 
 exports.create = user => {
-    // h = pass.hashSync('1234');
-    // console.log(pass.verifySync('12345', h));
+    const pass = password.hashSync(user.password);
 
     return UserModel.create({
+        status: 0,
         firstname: user.firstname,
         email: user.email,
         name: user.name,
-        password: user.password
+        password: pass
     });
 };
 

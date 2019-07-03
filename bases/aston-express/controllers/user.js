@@ -18,6 +18,14 @@ exports.login = (req, res) => {
 
 exports.register = (req, res) => {
     const user = req.body;
-    console.log(user);
-    res.status(201).json(user);
+
+    UserService.create(user)
+        .then(
+            data => {
+                res.status(201).json(data);
+            },
+            err => {
+                res.status(500).json(err);
+            }
+        );
 }
