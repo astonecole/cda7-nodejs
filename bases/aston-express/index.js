@@ -18,9 +18,15 @@ sequelize
         }
     );
 
+bodyParser = require('body-parser');
+cors = require('cors');
 express = require('express');
 app = express();
+
 lunchtime = express.Router();
+lunchtime.use(cors());
+lunchtime.use(bodyParser.urlencoded({ extended: true }));
+lunchtime.use(bodyParser.json());
 
 // Public Middlewares
 app.use(morgan('tiny'));

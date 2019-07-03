@@ -1,7 +1,7 @@
 // services/UserService.js
 
 const UserModel = require('../models/UserModel');
-const password = require('./utils/bcrypt-password');
+const password = require('../utils/bcrypt-password');
 
 exports.create = user => {
     // h = pass.hashSync('1234');

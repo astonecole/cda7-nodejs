@@ -3,6 +3,10 @@
 const controllers = require('../controllers/user');
 
 user = express.Router();
+user.use(cors());
+user.use(bodyParser.urlencoded({ extended: true }));
+user.use(bodyParser.json());
+
 lunchtime.use('/user', user);
 
 // http://localhost:8000/lunchtime/login

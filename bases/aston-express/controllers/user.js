@@ -17,5 +17,7 @@ exports.login = (req, res) => {
 }
 
 exports.register = (req, res) => {
-    res.json({});
+    const user = req.body;
+    console.log(user);
+    res.status(201).json(user);
 }
