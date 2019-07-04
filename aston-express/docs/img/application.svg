@@ -1,0 +1,70 @@
+<svg viewBox="0 0 636 364" height="364" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="636">
+    <style type="text/css"><![CDATA[
+.st1 {fill:#1f6391;font-family:Arial;font-size:13.5pt}
+]]></style>
+    <defs/>
+    <g transform="translate(-201.38,-65)">
+        <g id="shape1" transform="translate(570.47,227)">
+            <path d="M82.8,90C86.8,90,90,86.8,90,82.8L90,7.2C90,3.2,86.8,0,82.8,0L7.2,0C3.2,0,0,3.2,0,7.2L0,82.8C0,86.8,3.2,90,7.2,90L82.8,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="16" y="50.5">models</tspan>
+            </text>
+        </g>
+        <g id="shape2" transform="translate(399.69,66)">
+            <path d="M96.1,90C100.8,90,104.5,86.3,104.5,81.6L104.5,8.4C104.5,3.7,100.8,0,96.1,0L8.4,0C3.7,0,0,3.7,0,8.4L0,81.6C0,86.3,3.7,90,8.4,90L96.1,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="11.3" y="50.5">controllers</tspan>
+            </text>
+        </g>
+        <g id="shape3" transform="translate(401.44,227)">
+            <path d="M92.9,90C97.4,90,101,86.4,101,81.9L101,8.1C101,3.6,97.4,0,92.9,0L8.1,0C3.6,0,0,3.6,0,8.1L0,81.9C0,86.4,3.6,90,8.1,90L92.9,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="18" y="50.5">services</tspan>
+            </text>
+        </g>
+        <g id="shape4" transform="translate(213.88,66)">
+            <path d="M88.5,90C92.8,90,96.3,86.6,96.3,82.3L96.3,7.7C96.3,3.4,92.8,0,88.5,0L7.7,0C3.4,0,0,3.4,0,7.7L0,82.3C0,86.6,3.4,90,7.7,90L88.5,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="23.1" y="50.5">routes</tspan>
+            </text>
+        </g>
+        <g id="shape5" transform="translate(217,338)">
+            <path d="M82.8,90C86.8,90,90,86.8,90,82.8L90,7.2C90,3.2,86.8,0,82.8,0L7.2,0C3.2,0,0,3.2,0,7.2L0,82.8C0,86.8,3.2,90,7.2,90L82.8,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="17" y="50.5">main.js</tspan>
+            </text>
+        </g>
+        <g id="shape6" transform="matrix(0,1,-1,0,262,156)">
+            <path d="M8,0L182,0" stroke="#000000" fill="none"/>
+            <path stroke-width="1" d="M8,4L0,0L8,-4L8,4" stroke-linecap="round" stroke="#000000" fill="#000000"/>
+        </g>
+        <g id="shape7" transform="matrix(-1,0,0,-1,399.7,111)">
+            <path d="M8,0L89.6,0" stroke="#000000" fill="none"/>
+            <path stroke-width="1" d="M8,4L0,0L8,-4L8,4" stroke-linecap="round" stroke="#000000" fill="#000000"/>
+        </g>
+        <g id="shape8" transform="matrix(0,-1,1,0,451.9,227)">
+            <path d="M8,0L71,0" stroke="#000000" fill="none"/>
+            <path stroke-width="1" d="M8,4L0,0L8,-4L8,4" stroke-linecap="round" stroke="#000000" fill="#000000"/>
+        </g>
+        <g id="shape9" transform="matrix(-1,0,0,-1,570.5,272)">
+            <path d="M8,0L68,0" stroke="#000000" fill="none"/>
+            <path stroke-width="1" d="M8,4L0,0L8,-4L8,4" stroke-linecap="round" stroke="#000000" fill="#000000"/>
+        </g>
+        <g id="shape10" transform="translate(746,227)">
+            <path d="M82.8,90C86.8,90,90,86.8,90,82.8L90,7.2C90,3.2,86.8,0,82.8,0L7.2,0C3.2,0,0,3.2,0,7.2L0,82.8C0,86.8,3.2,90,7.2,90L82.8,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="8" y="50.5">database</tspan>
+            </text>
+        </g>
+        <g id="shape11" transform="matrix(-1,0,0,-1,746,272)">
+            <path d="M8,0L85.5,0" stroke="#000000" fill="none"/>
+            <path stroke-width="1" d="M8,4L0,0L8,-4L8,4" stroke-linecap="round" stroke="#000000" fill="#000000"/>
+        </g>
+        <g id="shape12" transform="translate(202.38,202)">
+            <path d="M109.7,90C115,90,119.3,85.7,119.3,80.5L119.3,9.5C119.3,4.3,115,0,109.7,0L9.5,0C4.3,0,0,4.3,0,9.5L0,80.5C0,85.7,4.3,90,9.5,90L109.7,90z" stroke="#000000" fill="#ffffff"/>
+            <text class="st1">
+                <tspan x="9.1" y="50.5">middlewares</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
